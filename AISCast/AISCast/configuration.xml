@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ShowBroadcastMessages>0</ShowBroadcastMessages>
+  <ShowVesselMessages>0</ShowVesselMessages>
+  <UidValidationTimeout>2000</UidValidationTimeout>
+  <ActiveConnectionInterval>10000</ActiveConnectionInterval>
+  <LocationUpdateInterval>720000</LocationUpdateInterval>
+  <RetryConnectionTime>30000</RetryConnectionTime>
+  <BaseUrl>http://delpilots.com/ais_status/?</BaseUrl>
+  <AntennaEndpoints>
+    <Endpoint>
+      <Name>MarEx-MidRiver</Name>
+      <Host>162.218.77.108</Host>
+      <Port>10001</Port>
+    </Endpoint>
+    <Endpoint>
+      <Name>MarEx-UpRiver</Name>
+      <Host>162.218.77.108</Host>
+      <Port>10002</Port>
+    </Endpoint>
+    <Endpoint>
+      <Name>MarEx-LowerRiver</Name>
+      <Host>162.218.77.108</Host>
+      <Port>10003</Port>
+    </Endpoint>    
+  </AntennaEndpoints>
+  <BroadcastEndpoint>
+    <Host>172.16.16.200</Host>
+    <Port>54190</Port>
+  </BroadcastEndpoint>
+
+  <WhitelistEntries>
+
+
+    <WhitelistEntry>
+      <EntryType>IPAddress</EntryType>
+      <Id>172.16.16.236</Id>
+      <Name>Roberts's Computer (OpenCPN)</Name>
+      <Notes> </Notes>
+    </WhitelistEntry> 
+
+    <WhitelistEntry>
+      <EntryType>IPAddress</EntryType>
+      <Id>172.16.16.242</Id>
+      <Name>Jasons's Computer (OpenCPN)</Name>
+      <Notes> </Notes>
+    </WhitelistEntry> 
+
+    <WhitelistEntry>
+      <EntryType>IPAddress</EntryType>
+      <Id>73.141.103.173</Id>
+      <Name> Farm Laptops LNS (OpenCPN)</Name>
+      <Notes> </Notes>
+    </WhitelistEntry> 
+
+
+    <WhitelistEntry>
+      <EntryType>IPAddress</EntryType>
+      <Id>172.16.16.200</Id>
+      <Name>AIS Cast's Computer (OpenCPN)</Name>
+      <Notes> </Notes>
+    </WhitelistEntry> 
+
+    <WhitelistEntry>
+      <EntryType>UID</EntryType>
+      <Id>820ed6936679404e948a183826e5d0fd00000000</Id>
+      <Name>Jason's iPhone</Name>
+      <Notes>Welcome Message here...</Notes>
+    </WhitelistEntry>
+
+
+     <WhitelistEntry>
+      <EntryType>UID</EntryType>
+      <Id>e45a7a7410bc43a1bf1a4de5fa29cd2400000000</Id>
+      <Name>Robert's iPhone</Name>
+      <Notes>Welcome to AISStream...</Notes>
+    </WhitelistEntry> 
+
+     <WhitelistEntry>
+      <EntryType>UID</EntryType>
+      <Id>a169e3751d1642248543e7291548dfb500000000</Id>
+      <Name>ABP iPhone</Name>
+      <Notes>Welcome to AISStream...</Notes>
+    </WhitelistEntry> 
+
+     <WhitelistEntry>
+      <EntryType>UID</EntryType>
+      <Id>94ebabda6d1b4ba5bd41004c82709ee300000000</Id>
+      <Name>ABP iPad</Name>
+      <Notes>Welcome to AISStream...</Notes>
+    </WhitelistEntry> 
+
+    <WhitelistEntry>
+      <EntryType>UID</EntryType>
+      <Id>8176abd48c2f42bfbfedb91d041a041100000000</Id>
+      <Name>TLP iPhone12</Name>
+      <Notes>Welcome to AISStream...</Notes>
+    </WhitelistEntry>
+
+    <WhitelistEntry>
+      <EntryType>UID</EntryType>
+      <Id> 8a241865911045c7a82257d00799dd8400000000 </Id>
+      <Name>Steve Roberts iPhone/iPad </Name>
+      <Notes>Welcome to AISStream...</Notes>
+    </WhitelistEntry> 
+
+      <WhitelistEntry>
+      <EntryType>UID</EntryType>
+      <Id>21d480b016c74503b3336b1f123fd69400000000</Id>
+      <Name>DKC Old Test Phone</Name>
+      <Notes>Welcome to AISStream...</Notes>
+    </WhitelistEntry> 
+
+     <WhitelistEntry>
+      <EntryType>IPAddress</EntryType>
+      <Id>192.168.1.123</Id>
+      <Name>Dan's iPhone</Name>
+      <Notes>Disregard</Notes>
+    </WhitelistEntry>
+
+    <WhitelistEntry>
+      <EntryType>UID</EntryType>
+      <Id>6d6b026a40214421baf90ec60a4e587a00000000</Id>
+      <Name>Dan's iPhone</Name>
+      <Notes>Disregard</Notes>
+    </WhitelistEntry>
+
+    <WhitelistEntry>
+      <EntryType>UID</EntryType>
+      <Id>7b298f6e7d074d59989b5bd71cb5f5da00000000</Id>
+      <Name>APS iPhone</Name>
+      <Notes>Disregard</Notes>
+    </WhitelistEntry>
+      
+    <WhitelistEntry>
+      <EntryType>IPAddress</EntryType>
+      <Id>108.52.20.228</Id>
+      <Name>Robert's Home PC(OpenCPN)</Name>
+      <Notes> </Notes>
+    </WhitelistEntry>
+
+    <WhitelistEntry>
+      <EntryType>UID</EntryType>
+      <Id>f465853cbe1e3fad40fc74741e920ca476cb68df</Id>
+      <Name>CWF iPhone</Name>
+      <Notes>Disregard</Notes>
+    </WhitelistEntry>
+
+    <WhitelistEntry>
+      <EntryType>UID</EntryType>
+      <Id>e7a6ae16bc714901a3f0c9017a492c8900000000</Id>
+      <Name>NCP iPhone</Name>
+      <Notes>Disregard</Notes>
+    </WhitelistEntry>
+
+  </WhitelistEntries>
+</Config>
